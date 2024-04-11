@@ -10,3 +10,9 @@
 
 - name: JavaScript
   weight: 4
+
+- name: Mysql
+  weight: 4
+
+- name: MongoDB
+  weight: 3
