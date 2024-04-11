@@ -11,7 +11,7 @@
 - name: JavaScript
   weight: 4
 
-- name: Mysql
+- name: SQL
   weight: 4
 
 - name: MongoDB
