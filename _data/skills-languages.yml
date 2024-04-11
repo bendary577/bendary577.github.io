@@ -5,14 +5,11 @@
 # - name: Language
 #   weight: 5
 
-- name: Java
-  weight: 5
-
 - name: JavaScript
   weight: 4
 
 - name: SQL
   weight: 4
 
-- name: MongoDB
-  weight: 3
+- name: Java
+  weight: 5
