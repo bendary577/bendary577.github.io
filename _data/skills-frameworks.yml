@@ -11,5 +11,8 @@
 - name: Spring Boot
   weight: 3
 
+- name: JUnit
+  weight: 3
+
 - name: Angular
   weight: 4
