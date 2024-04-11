@@ -5,14 +5,16 @@
 # - name: Framework
 #   weight: 5
 
+- name: JUnit
+  weight: 3
+  
+- name: Angular
+  weight: 4
+  
 - name: Spring Framework
   weight: 5
 
 - name: Spring Boot
   weight: 3
 
-- name: JUnit
-  weight: 3
 
-- name: Angular
-  weight: 4
