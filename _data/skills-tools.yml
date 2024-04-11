@@ -5,6 +5,12 @@
 # - name: Git
 #   weight: 5
 
+- name: MongoDB
+  weight: 3
+  
+- name: MySql
+  weight: 4
+  
 - name: SQL Server
   weight: 5
   
