@@ -17,45 +17,52 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Java Software Engineer
+  title-url: ITWORX Education
+  date: Sep 2022 - Present
+  subtitle: Java Developer
   tags:
-    - tag: React
+    - tag: Java
+    - tag: Spring Boot
     - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Angular
+    - tag: SQL Server
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Full Stack Software Developer
+  title-url: Entrepreware
+  date: Feb 2022 - Oct 2022
+  subtitle: Software Developer
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Spring Framework
+    - tag: Spring Boot
+    - tag: Java
+    - tag: Angular
+    - tag: Mysql
+    - tag: MongoDB
+    - tag: Google Cloud Platform (GCP)
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Full Stack Software Developer
+  title-url: C-Selection Technologies
+  date: Jun 2021 - May 2022
+  subtitle: Software Developer
   timeline-side: left
 
-- title: Facebook
+- title: Software Developer Intern
   title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+  date: Nov 2020 - Feb 2021
+  subtitle: Back-End Developer as Intern
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Java
+    - tag: JAXB
+    - tag: JAX-WS
+    - tag: JMS
+    - tag: SOAP
   timeline-side: right
 
-- title: Super University
+- title: Major of Computer Science - Helwan University Cairo
   title-url: https://example.com/
-  date: 2014 - 2017
+  date: 2017 - 2021
   subtitle: B.A. Computer Science
   timeline-side: left
