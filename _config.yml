@@ -34,8 +34,8 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I am a backend software engineer with 3 years experience developing 
-Java-based applications and with hands-on experience in building Javascript Angular framework client-side projects. 
+about_me_description: I am a backend software engineer with 3 years of experience developing 
+Java-based applications and hands-on experience in building Javascript Angular framework client-side projects. 
 I can help you build your technical solutions by using the powerful tools of the Spring framework ecosystem. 
 you can check my <a class="highlight-link" href="https://github.com/bendary577" target="_blank" rel="noreferrer"> Github </a> account and follow me on <a class="highlight-link" href="https://www.linkedin.com/in/mohamed-bendary/" target="_blank" rel="noreferrer"> Linkedin </a>. don't hesitate to contact me
 
