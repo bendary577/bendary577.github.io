@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Mohamed Bendary
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Mohamed Bendary personal website
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -22,7 +22,7 @@ email: mohamedyossif577@gmail.com
 # > twitter_username:
 github_username: bendary577
 codepen_username: 
-dev_username: 
+dev_username: https://dev.to/bendary577
 linkedin_username: mohamed-bendary
 twitter_username: beendaary
 
