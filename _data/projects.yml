@@ -13,21 +13,29 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: ETeach Learning Platform
+  descr: "ETeach is an eLearning platform that makes learning way too easy for both teacher and student. the teacher can upload his course videos and start earning money. students can register for a course and get notified whenever a new lesson is uploaded. eteach has an automatic correction quizzing system that enables the teacher to evaluate his students. Students and teachers both have dashboards for their accounts. I developed the back end for the Eteach platform using the Java Spring framework."
+  demo: https://github.com/bendary577/Eteach-Back-End
   tags:
+    - tag: Java
+    - tag: Spring Framework
+    - tag: Spring Boot
+    - tag: Mysql
+    
+- name: IBS Mobile App
+  descr: "IBS is an employee management and support App for IBS corporate in Cairo/Egypt. the app enables the employees to register using their employee ID to get all their info setup once login to the app. the employees are updated through a Firebase notification system. also, they can open support tickets and track them through a support ticketing module. a websocket-based chat module is available on the app to enable easier communication with support team members."
+  demo: https://github.com/bendary577/IBS-Mobile-App
+  tags:
+    - tag: React Native
+    - tag: Nodejs
+    - tag: Firebase
+    - tag: WebSockets
     - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
 
 - name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+  descr: "MyEasy is an e-commerce platform built to enable sellers and customers to sell/buy their products easily and through one centralized platform. the seller can create a store and start adding his product details. the customer can browse the available stores/products based on category. and buy te desired product and pay online. a rating system is available to rans seller based on their product quality and delivery rate."
+  demo: https://github.com/bendary577/MyEasy--Back-end
   tags:
-    - tag: Python
-    - tag: Django
-
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+    - tag: PHP
+    - tag: Laravel
+    - tag: Mysql
