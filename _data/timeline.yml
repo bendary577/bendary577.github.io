@@ -17,10 +17,10 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: Java Software Engineer
+- title: Java Software Engineer at ITWORX Education UAE
   title-url: ITWORX Education
-  date: Sep 2022 - Present
-  subtitle: Java Developer
+  date: May 2023 - Present
+  subtitle: I was Relocated to the UAE to participate in the design, implementation, and refactoring of large-scale educational software systems deployed by the UAE Ministry of Education
   tags:
     - tag: Java
     - tag: Spring Boot
@@ -28,11 +28,23 @@
     - tag: Angular
     - tag: SQL Server
   timeline-side: right
+  
+- title: Java Software Engineer at ITWORX Education Egypt
+  title-url: ITWORX Education
+  date: Oct 2022 - May 2023
+  subtitle: Worked on the designing, implementing and refactoring of large educational software systems deployed in the UAE - Ministry of Education. Managed Successfully to restructure critical parts in the system to increase its performance and decrease the overall system latency
+  tags:
+    - tag: Java
+    - tag: Spring Boot
+    - tag: Javascript
+    - tag: Angular
+    - tag: SQL Server
+  timeline-side: left
 
-- title: Full Stack Software Developer
+- title: Full Stack Software Developer at Entrepreware
   title-url: Entrepreware
   date: Feb 2022 - Oct 2022
-  subtitle: Software Developer
+  subtitle: Collaborated with my team to6 develop, test, and maintain software products in the field of hospitality, food delivery and integration with Oracle products like (Oracle hospitality reporting and analytics)
   tags:
     - tag: Spring Framework
     - tag: Spring Boot
@@ -43,16 +55,16 @@
     - tag: Google Cloud Platform (GCP)
   timeline-side: right
 
-- title: Full Stack Software Developer
+- title: Full Stack Software Developer at C-Selection Technologies
   title-url: C-Selection Technologies
-  date: Jun 2021 - May 2022
-  subtitle: Software Developer
+  date: May 2021 - May 2022
+  subtitle: My job responsibilities included meeting clients and participating in requirements analysis, designing software diagrams, and implementing the software using the suitable technology stack. I also managed to work on several legacy projects to update and solve bugs in the available codebase
   timeline-side: left
 
-- title: Software Developer Intern
+- title: Software Developer Intern at Tech-Hub
   title-url: https://example.com/
   date: Nov 2020 - Feb 2021
-  subtitle: Back-End Developer as Intern
+  subtitle: In this position, I was helping my co-workers to improve development processes, I participated in reverse engineering a large project for the Ministry of Commerce in KSA to redevelop it using IBM technologies, which enhanced my analytical and code refactoring skills.
   tags:
     - tag: Java
     - tag: JAXB
@@ -63,6 +75,6 @@
 
 - title: Major of Computer Science - Helwan University Cairo
   title-url: https://example.com/
-  date: 2017 - 2021
+  date: Jul 2017 - Jan 2022
   subtitle: B.A. Computer Science
   timeline-side: left

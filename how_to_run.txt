@@ -1,0 +1,2 @@
+gulp : run the project locally
+bundle exec jekyll build : reflect changes in _config.yml

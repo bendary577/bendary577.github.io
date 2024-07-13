@@ -32,7 +32,7 @@
     - tag: WebSockets
     - tag: MongoDB
 
-- name: project Y
+- name: MyEasy
   descr: "MyEasy is an e-commerce platform built to enable sellers and customers to sell/buy their products easily and through one centralized platform. the seller can create a store and start adding his product details. the customer can browse the available stores/products based on category. and buy te desired product and pay online. a rating system is available to rans seller based on their product quality and delivery rate."
   demo: https://github.com/bendary577/MyEasy--Back-end
   tags:
