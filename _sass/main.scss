@@ -106,6 +106,14 @@ a {
   text-align: justify;
 }
 
+.skills-button {
+  background: #2c2c2c; // A solid, flat color
+  color: #fff; // White text for contrast
+  padding: 10px 20px; // Adjust padding for a better button size
+  border: none; // Remove default border
+  border-radius: 8px; // Rounded corners for a modern look
+}
+
 .neumorphism-button {
   background: linear-gradient(
     145deg,
@@ -115,6 +123,7 @@ a {
   box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
+
 
 @mixin neumorphism-button-pressed {
   background: linear-gradient(
@@ -391,15 +400,15 @@ a {
     transition: opacity 0.5s;
   }
 
-  div[skill-type="language"] {
+  div[skill-type="languages"] {
     color: #e84a5f;
   }
 
-  div[skill-type="framework"] {
+  div[skill-type="frameworks"] {
     color: #ff847c;
   }
 
-  div[skill-type="tool"] {
+  div[skill-type="technologies"] {
     color: #fecea8;
   }
 
@@ -714,7 +723,7 @@ a {
       width: 21%;
 
       &:hover {
-        letter-spacing: 0.25rem;
+       // letter-spacing: 0.25rem;
       }
     }
 
@@ -727,23 +736,23 @@ a {
     }
 
     input[type="radio"]:checked + .filter-button {
-      color: $primary-color;
+      color: white;
       font-weight: $font-weight-strong;
-      @include neumorphism-button-pressed();
+      //@include neumorphism-button-pressed();
     }
 
-    input[id="language"]:checked ~ div[skill-type="framework"],
-    input[id="language"]:checked ~ div[skill-type="tool"] {
+    input[id="languages"]:checked ~ div[skill-type="frameworks"],
+    input[id="languages"]:checked ~ div[skill-type="technologies"] {
       @include filter-out;
     }
 
-    input[id="framework"]:checked ~ div[skill-type="language"],
-    input[id="framework"]:checked ~ div[skill-type="tool"] {
+    input[id="frameworks"]:checked ~ div[skill-type="languages"],
+    input[id="frameworks"]:checked ~ div[skill-type="technologies"] {
       @include filter-out;
     }
 
-    input[id="tool"]:checked ~ div[skill-type="language"],
-    input[id="tool"]:checked ~ div[skill-type="framework"] {
+    input[id="technologies"]:checked ~ div[skill-type="languages"],
+    input[id="technologies"]:checked ~ div[skill-type="frameworks"] {
       @include filter-out;
     }
   }

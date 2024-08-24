@@ -2,14 +2,16 @@
 
 <div id="skills">
   <input type="radio" id="all" name="filter" checked />
-  <label class="filter-button neumorphism-button" for="all">All</label>
-  <input type="radio" id="language" name="filter" />
-  <label class="filter-button neumorphism-button" for="language">Languages</label>
-  <input type="radio" id="framework" name="filter" />
-  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
-  <input type="radio" id="tool" name="filter" />
-  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+  <label class="filter-button skills-button" for="all">All</label>
+  <input type="radio" id="languages" name="filter" />
+  <label class="filter-button skills-button" for="languages">Languages</label>
+  <input type="radio" id="frameworks" name="filter" />
+  <label class="filter-button skills-button" for="frameworks">Frameworks</label>
+  <input type="radio" id="technologies" name="filter" />
+  <label class="filter-button skills-button" for="technologies">Technologies</label>
 
+	<!----------------------------- OLD IMPLEMENTATION ------------------------------>
+	<!--- 
   {% for language in site.data.skills-languages %}
     <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">
       {{language.name}}
@@ -25,4 +27,82 @@
       {{tool.name}}
     </div>
   {% endfor %}
+  -->
+  <!----------------------------- NEW IMPLEMENTATION ------------------------------>
+  
+  <!------------------------------ Languages ------------------------------------------>
+	<div skill-type="languages" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/java-188.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Java</span>
+	</div>
+	
+	<div skill-type="languages" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/javascript-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Javascript</span>
+	</div>
+	
+	<div skill-type="languages" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/sql-100.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">SQL</span>
+	</div>
+	
+	<!------------------------------ frameworks ------------------------------------------>
+	
+	<div skill-type="frameworks" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/spring-boot-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Spring Boot</span>
+	</div>
+	
+	<div skill-type="frameworks" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/spring-cloud-80.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Spring Cloud</span>
+	</div>
+	
+	<div skill-type="frameworks" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/angular-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Angular</span>
+	</div>
+	
+	<div skill-type="frameworks" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/react-100.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">React</span>
+	</div>
+	
+	<!------------------------------ technologies ------------------------------------------>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/aws-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">AWS</span>
+	</div>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/docker-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Docker</span>
+	</div>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/kubernetes-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Kubernetes</span>
+	</div>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/linux-96.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Linux</span>
+	</div>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/git-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">GIT</span>
+	</div>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/nginx-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Nginx</span>
+	</div>
+	
+	<div skill-type="technologies" skill-weight="3" data-aos="zoom-in" style="display: flex; align-items: center; color:white">
+		<img src="../assets/freeIcons/tomcat-144.png" alt="Icon description" width="48" height="48">
+		<span style="margin-left: 8px;">Apache Tomcat</span>
+	</div>
+	
 </div>
